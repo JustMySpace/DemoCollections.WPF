@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "属性验证", "属性验证", "{1CC4E662-CA7A-4B15-82D7-E7835738DBE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INotifyDataErrorInfo实现属性验证", "INotifyDataErrorInfo实现属性验证\INotifyDataErrorInfo实现属性验证.csproj", "{F3E4DEA3-8C2B-4691-B340-48870CC16B10}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "绑定", "绑定", "{27C52FE3-4C6B-4577-8BC9-4F9A3AEA69B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindableBase绑定基类", "BindableBase绑定基类\BindableBase绑定基类.csproj", "{91D3EC46-2122-4B63-9FC7-254FF26B94D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindableBase绑定基类", "绑定\BindableBase绑定基类\BindableBase绑定基类.csproj", "{F39BB574-6A83-49A5-AFEE-B8DFB966BE22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "INotifyDataErrorInfo实现属性验证", "属性验证\INotifyDataErrorInfo实现属性验证\INotifyDataErrorInfo实现属性验证.csproj", "{E5C99A47-9F82-49EE-A234-AB5096B00A01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,21 +17,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F3E4DEA3-8C2B-4691-B340-48870CC16B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F3E4DEA3-8C2B-4691-B340-48870CC16B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F3E4DEA3-8C2B-4691-B340-48870CC16B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F3E4DEA3-8C2B-4691-B340-48870CC16B10}.Release|Any CPU.Build.0 = Release|Any CPU
-		{91D3EC46-2122-4B63-9FC7-254FF26B94D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{91D3EC46-2122-4B63-9FC7-254FF26B94D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{91D3EC46-2122-4B63-9FC7-254FF26B94D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{91D3EC46-2122-4B63-9FC7-254FF26B94D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39BB574-6A83-49A5-AFEE-B8DFB966BE22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39BB574-6A83-49A5-AFEE-B8DFB966BE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39BB574-6A83-49A5-AFEE-B8DFB966BE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39BB574-6A83-49A5-AFEE-B8DFB966BE22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C99A47-9F82-49EE-A234-AB5096B00A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C99A47-9F82-49EE-A234-AB5096B00A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C99A47-9F82-49EE-A234-AB5096B00A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C99A47-9F82-49EE-A234-AB5096B00A01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{F3E4DEA3-8C2B-4691-B340-48870CC16B10} = {1CC4E662-CA7A-4B15-82D7-E7835738DBE0}
-		{91D3EC46-2122-4B63-9FC7-254FF26B94D6} = {27C52FE3-4C6B-4577-8BC9-4F9A3AEA69B4}
+		{F39BB574-6A83-49A5-AFEE-B8DFB966BE22} = {27C52FE3-4C6B-4577-8BC9-4F9A3AEA69B4}
+		{E5C99A47-9F82-49EE-A234-AB5096B00A01} = {1CC4E662-CA7A-4B15-82D7-E7835738DBE0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE45F7A9-2F23-41D6-A4E9-B4A2A9179D67}
